@@ -1,6 +1,6 @@
 # LittleFS Implementation on IS25LP128 NOR Flash
 
-This repository provides a reference implementation of the LittleFS filesystem on the IS25LP128 NOR Flash memory using the nRF52832 development board and Zephyr RTOS. The implementation showcases how to set up LittleFS on a non-volatile memory device like IS25LP128, with optimized read/write operations and wear leveling.
+This repository provides a reference implementation of the LittleFS filesystem on the IS25LP128 NOR Flash memory using the nRF52832 development board and Zephyr RTOS. The implementation showcases how to set up LittleFS on a non-volatile memory device like IS25LP128, with optimized read/write operations, wear leveling, and speed benchmarking.
 
 ## Project Overview
 
@@ -12,6 +12,7 @@ The main objective of this project is to create a robust filesystem solution for
 - **RTOS**: Zephyr RTOS
 - **Filesystem**: LittleFS (Lightweight Fail-Safe Filesystem)
 - **Operations Supported**: Read, Write, File Creation, Deletion, and Directory Management
+- **Benchmarking Criteria**: Measures read/write speed to evaluate performance of file operations
 
 ## Hardware and Software Requirements
 
